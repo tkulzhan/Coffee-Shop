@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
     borderRadius: 5,
     justifyContent: "center",
     alignItems: "center",
-    marginHorizontal: 10
+    marginHorizontal: 10 + "%"
   },
   btnImg: (dimension) => ({
     width: dimension,

@@ -4,6 +4,8 @@ import Home from "./home/Home";
 import Marketplace from "./marketplace/Marketplace";
 import CustomDrawer from "./drawer/CustomDrawer";
 import Icon from "react-native-vector-icons/FontAwesome";
+import Settings from "./settings/Settings";
+import FAQ from "./faq/FAQ"
 
 const Drawer = createDrawerNavigator();
 
@@ -23,9 +25,7 @@ function App() {
           name="Home"
           component={Home}
           options={{
-            drawerIcon: () => (
-              <Icon name="home" color={"white"} size={20} />
-            ),
+            drawerIcon: () => <Icon name="home" color={"white"} size={20} />,
           }}
         />
         <Drawer.Screen
@@ -35,6 +35,20 @@ function App() {
             drawerIcon: () => (
               <Icon name="bitbucket" color={"white"} size={20} />
             ),
+          }}
+        />
+        <Drawer.Screen
+          name="Settings"
+          component={Settings}
+          options={{
+            drawerIcon: () => <Icon name="gear" color={"white"} size={20} />,
+          }}
+        />
+        <Drawer.Screen
+          name="FAQ"
+          component={FAQ}
+          options={{
+            drawerIcon: () => <Icon name="question-circle-o" color={"white"} size={20} />,
           }}
         />
       </Drawer.Navigator>

@@ -5,7 +5,10 @@ import {
   ImageBackground,
 } from "react-native";
 import CoffeeCard from "./coffeecard/CoffeeCard";
-import img from "../../assets/cup1.png";
+import img from "../../assets/cup.png";
+import img1 from "../../assets/cup1.png";
+import img2 from "../../assets/cup2.png";
+import img3 from "../../assets/cup3.png";
 import image from "../../assets/image.png";
 import styles from "./marketplacestyle";
 import { ScrollView } from "react-native-gesture-handler";
@@ -13,14 +16,14 @@ import Header from "../header/Header";
 
 function Marketplace({navigation}) {
   const data = [
-    { id: 1, img: img, name: "Sample drink" },
+    { id: 1, img: img2, name: "Sample drink" },
     { id: 2, img: img, name: "Sample drink" },
-    { id: 3, img: img, name: "Sample drink" },
-    { id: 4, img: img, name: "Sample drink" },
+    { id: 3, img: img1, name: "Sample drink" },
+    { id: 4, img: img3, name: "Sample drink" },
     { id: 5, img: img, name: "Sample drink" },
-    { id: 6, img: img, name: "Sample drink" },
-    { id: 7, img: img, name: "Sample drink" },
-    { id: 8, img: img, name: "Sample drink" },
+    { id: 6, img: img3, name: "Sample drink" },
+    { id: 7, img: img1, name: "Sample drink" },
+    { id: 8, img: img2, name: "Sample drink" },
   ];
   return (
     <SafeAreaView style={styles.container}>
