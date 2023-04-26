@@ -16,14 +16,14 @@ import Header from "../header/Header";
 
 function Marketplace({navigation}) {
   const data = [
-    { id: 1, img: img2, name: "Sample drink" },
-    { id: 2, img: img, name: "Sample drink" },
-    { id: 3, img: img1, name: "Sample drink" },
-    { id: 4, img: img3, name: "Sample drink" },
-    { id: 5, img: img, name: "Sample drink" },
-    { id: 6, img: img3, name: "Sample drink" },
-    { id: 7, img: img1, name: "Sample drink" },
-    { id: 8, img: img2, name: "Sample drink" },
+    { id: 1, img: img2, name: "Iced Latte" },
+    { id: 2, img: img, name: "Iced Doppio" },
+    { id: 3, img: img1, name: "Mocha" },
+    { id: 4, img: img3, name: "Latte" },
+    { id: 5, img: img, name: "Iced Black" },
+    { id: 6, img: img3, name: "Cappuccino" },
+    { id: 7, img: img1, name: "Americano" },
+    { id: 8, img: img2, name: "Iced Americano" },
   ];
   return (
     <SafeAreaView style={styles.container}>
