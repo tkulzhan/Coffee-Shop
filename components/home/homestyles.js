@@ -5,9 +5,9 @@ const styles = StyleSheet.create({
     backgroundColor: "#402c5c",
   },
   headerText: {
-    fontSize: 24,
+    fontSize: 28,
     color: "#fff",
-    marginBottom: 70,
+    marginTop: 100,
   },
   headerImage: {
     width: 97 + "%",
@@ -17,11 +17,13 @@ const styles = StyleSheet.create({
     alignItems: "center",
     marginLeft: 3 + "%",
     textAlign: "center",
+    marginVertical: 20,
   },
-  list: {
-    flexDirection: "row",
-    flexWrap: "wrap",
-    marginTop: 10,
+  explore: {
+    color: "white",
+    fontSize: 18,
+    marginLeft: 3 + "%",
+    marginBottom: 20,
   },
 });
 

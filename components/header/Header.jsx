@@ -6,8 +6,15 @@ function Header({ navigation }) {
   return (
     <Stack.Screen
       options={{
-        headerStyle: { backgroundColor: "#402c5c" },
         headerShadowVisible: false,
+        headerTitle: "Coffee Base",
+        headerStyle: {
+          backgroundColor: "#383A57",
+        },
+        headerTitleStyle: {
+          color: "#fff",
+          marginLeft: 15
+        },
         headerLeft: () => (
           <HeaderBtn
             iconUrl={menu}
@@ -15,7 +22,6 @@ function Header({ navigation }) {
             handlePress={() => navigation.openDrawer()}
           />
         ),
-        headerTitle: "",
       }}
     ></Stack.Screen>
   );
