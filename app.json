@@ -4,7 +4,7 @@
     "web": {
       "bundler": "metro"
     },
-    "name": "Coffee-Shop",
-    "slug": "Coffee-Shop"
+    "name": "coffeeBaseMobile",
+    "slug": "coffeeBaseMobile"
   }
 }
